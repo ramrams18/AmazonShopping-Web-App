@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> right </title>
+<style>
+h3{
+color:blue;
+}
+h5{
+color:red;
+}
+body {
+    background-color:gainsboro;
+}
+.main {
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(img/a1.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider {
+    0%{ background-image: url(img/a1.jpg); }
+    35%{ background-image: url(img/a.jpg); }
+    75%{ background-image: url(img/a2.jpg); }
+}
+</style>
+</head>
+<body>
+<marquee>
+<h3> 75% Off on Mobile and accesories!!!</h3>
+</marquee>
+<div class="main">
+
+</div> 
+</body>
+</html>

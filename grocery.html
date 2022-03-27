@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            img:hover {
+                opacity: 0.5;
+            }
+            body {
+                background-color: darkgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <h3 align="center"> Grocery </h3>
+
+        <div class="row">
+            <div class="column">
+                <img src="img/g1.jpg" width="300" height="270">
+            </div>
+            <div class="column">
+                <img src="img/g2.jpg" width="300" height="270">
+            </div>
+            <div class="column">
+                <img src="img/g3.jpg" width="300" height="270">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column">
+                <img src="img/g4.jpg" width="300" height="270">
+            </div>
+            <div class="column">
+                <img src="img/g5.jpg" width="300" height="270">
+            </div>
+            <div class="column">
+                <img src="img/g6.jpg" width="300" height="270">
+            </div>
+        </div>
+    </body>
+</html>
